@@ -1,4 +1,4 @@
-# Joey's cdk-backend playground
+# Joey's CDK Fullstack playground
 
 Here is just my learning playground with AWS CDK
 
@@ -8,7 +8,7 @@ Build a FE with React (TS)
 
 This will be fully deployable via AWS CDK to S3 and CloudFront
 
-## Resources created this far.
+## Resources created thus far.
 
 - AWS CDK
 - Lambda
