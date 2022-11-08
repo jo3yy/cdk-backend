@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/279d5a56c469b760a9d6fba8718efa5394b445c2ce21f18244a76600d94460e5.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e21876aae057f49c2a311c380c81200ff83cb3aa0c00542cb104cb3bc958df0f.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -61,7 +61,7 @@
         "/Space-Finder/SpaceApi/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SpaceApiDeploymentA2B9E765034a8190331c4ce297500f4d35138078"
+            "data": "SpaceApiDeploymentA2B9E765e4d75781b8caeea995e51902bcb0738f"
           }
         ],
         "/Space-Finder/SpaceApi/DeploymentStage.prod/Resource": [
@@ -114,22 +114,16 @@
             "data": "SpacesTable8A997355"
           }
         ],
-        "/Space-Finder/hello-world-lambda/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "helloworldlambdaServiceRole1E1C4841"
-          }
-        ],
-        "/Space-Finder/hello-world-lambda/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "helloworldlambda89B27E55"
-          }
-        ],
         "/Space-Finder/helloLambdaNode/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "helloLambdaNodeServiceRoleBF3A7C6C"
+          }
+        ],
+        "/Space-Finder/helloLambdaNode/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloLambdaNodeServiceRoleDefaultPolicyADA01491"
           }
         ],
         "/Space-Finder/helloLambdaNode/Resource": [
